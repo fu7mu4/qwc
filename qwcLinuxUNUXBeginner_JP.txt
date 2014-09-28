@@ -1,0 +1,34 @@
+; -*- mode:lisp -*-
+((:NAME "question with choises for Japanese Linux/Unix Beginner" :AUTHOR "fu7mu4" :LICENSE "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+                    Version 2, December 2004 
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
+
+ Everyone is permitted to copy and distribute verbatim or modified 
+ copies of this license document, and changing it is allowed as long 
+ as the name is changed. 
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  0. You just DO WHAT THE FUCK YOU WANT TO." :tag "test" )
+
+((:QUESTION "リーナス・トーバルズ が 開発した OS の名前は何でしょう？" :CHOICES  ("Linux" "BSD UNIX" "git") :TAG "Linux") 
+ (:QUESTION "Linux のマスコットキャラクターは何でしょう？" :CHOICES ("ペンギン" "デーモン" "ワイバーン") :TAG "Linux")
+ (:QUESTION "Linux のマスコットキャラクターはどうしてペンギンなのでしょうか？" :CHOICES ("リーナスはペンギンが好きだったから" "Linux カーネルのメンバーによる投票で決定した" "Linux の最初のリリース日がペンギンの日だったから") :TAG "Linux")
+ (:QUESTION "Linux の Kernel のライセンスといえばどれでしょう？" :CHOICES ("GNU General Public License v2" "Modified BSD License" "Public Domain") :TAG "Linux" )
+ (:QUESTION "Linux のディストリビューターの説明で正しいのはどれでしょう？" :CHOICES ("Linuxを配布している者、団体" "Linuxを開発している者、団体" "Linuxのソフトを開発している者、団体") :TAG "Linux")
+ (:QUESTION "FreeBSD、NetBSD、OpenBSDのうち最も古くから開発されているのはどれでしょう" :CHOICES ("FreeBSD" "NetBSD" "OpenBSD") :TAG "UNIX")
+ (:QUESTION "文字コードのひとつ、UNICODEはあるOSの開発の副産物ですが、どのOSの開発の副産物でしょうか？" :CHOICES ("Plan9" "Linux" "MacOSX") :TAG "Linux	UNIX")
+ (:QUESTION "Mac OS XはUNIXでしょうか？" :CHOICES ("はい、POSIXに準拠したUNIXです" "いいえUNIXではなく、CopLandの直系の子孫です " "いいえUNIXではなく BeOS の直系の子孫です") :TAG "UNIX" )
+ (:QUESTION "UNIXは初期、アセンブラで記述されていましたが、C言語で書きなおされました。いつのことでしょうか？" :CHOICES ("1970年代" "1980年代" "1990年代") :TAG "UNIX" )
+ (:QUESTION "UNIXやLinuxでのファイルとディレクトリの構造が標準として定められていますが、その名前は何でしょうか？" :CHOICES ("Filesystem Hierarchy Standard" "Standard UNIX File and Folder System" "IEEE") :TAG "Linux	UNIX")
+ (:QUESTION "UNIX時間とはどのようなものでしょうか？" :CHOICES ("時間を1970年1月1日午前0時0分0秒からの秒数であらわす方法" "UNIXを連続起動している時間" "C言語で時間を表す time_t 型") :TAG "Linux UNIX")
+ (:QUESTION "Linux、UNIXでよく使用されているXサーバーとはどのような機能がありますか？" :CHOICES ("画面描画" "不要リソースの回収、解放" "日本語変換") :TAG "Linux	UNIX")
+ (:QUESTION "Linux、UNIXでにはデーモンがありますが、どのようなものでしょうか？" :CHOICES ("Windowsではサービスとよばれる、プロセスの一種" "LinuxやUNIXの熟練者のこと" "悪意のあるプログラムのこと、マルウェアの一種") :TAG "Linux	UNIX")
+ (:QUESTION "Linuxでよく使用されるファイルシステムはつぎのうちどれでしょう？" :CHOICES ("ext3/ext4" "HFSX" "NTFS") :TAG "Linux	UNIX")
+ (:QUESTION "Linuxのファイル属性には実行ビットがありますが、これに対応するCDのフォーマットは次のうちどれでしょう？" :CHOICES ("Rock Ridge" "ISO9660 Lv2" "Romeo") :TAG "Linux	UNIX")
+ (:QUESTION "Linuxのフォルダの属性には実行ビットがありますが、どのような機能がありますか？" :CHOICES ("そのフォルダの内部に入ることができる" "そのフォルダの内部でプログラムが実行できる" "そのフォルダ内のプログラムが実行できる") :TAG "Linux	UNIX")
+ (:QUESTION "LinuxやUNIXの実行ファイルの形式は次のうちどれでしょう？" :CHOICES ("ELF(Executable and Linkable Format )" "PE(Portable Executable)" "ABI(app binary interface)") :TAG "Linux	UNIX")
+) 
+)
